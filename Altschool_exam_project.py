@@ -29,7 +29,7 @@ class Expense:
             'updated_at': self.updated_at.isoformat()
         }
 
-class ExpenseDatabase:
+class ExpenseDB:
     def __init__(self):
         self.expenses = []
 
